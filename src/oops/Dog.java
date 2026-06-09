@@ -12,6 +12,11 @@ public class  Dog extends Animal {
         System.out.println( "The age of Dog is  " +  age);
     }
 
+    @Override
+    public void sound() {
+        System.out.println("Woof!");
+    }
+
 
 
     public static void main(String[] args){
@@ -30,6 +35,9 @@ public class  Dog extends Animal {
 
         d1.ageOfDog(6);
         d.ageOfDog(9);
+
+        d.sound();   // Woof! — Dog ka
+        d1.sound();  // Woof! — Dog ka
 
 }
 
