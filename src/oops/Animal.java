@@ -9,6 +9,11 @@ public class Animal {
         System.out.println(name + " says " + sound);
     }
 
+    public void sound(){
+        System.out.println("woof");
+    }
+
+
     public static void main(String[] args) {
         Animal dog = new Animal();
         dog.name = "Dog";
