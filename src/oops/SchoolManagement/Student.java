@@ -1,4 +1,4 @@
-package SchoolManagement;
+package oops.SchoolManagement;
 
 public class Student extends Person {
 

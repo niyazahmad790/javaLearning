@@ -1,4 +1,4 @@
-package SchoolManagement;
+package oops.SchoolManagement;
 
 public abstract class Person {
     public abstract void displayInfo();
